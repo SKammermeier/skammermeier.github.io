@@ -26,7 +26,7 @@
             installPhase = ''
               cp -r public $out
               cp -r themes $out
-              cp hugo.toml $out
+              #cp hugo.toml $out
             '';
           };
 
